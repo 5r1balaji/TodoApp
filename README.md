@@ -7,8 +7,8 @@ The following link for setting up mariadb instance
 
 https://mariadb.com/kb/en/library/create-database/
 
-![Alt Text](TodoApp/src/main/webapp/images/todoApp.PNG)
+![Alt Text](https://github.com/5r1balaji/TodoApp/blob/master/src/main/webapp/images/todoApp.PNG)
 App image
 
-![Alt Text](TodoApp/src/main/webapp/images/mariadb.PNG)
+![Alt Text](https://github.com/5r1balaji/TodoApp/blob/master/src/main/webapp/images/mariadb.PNG)
 db 
