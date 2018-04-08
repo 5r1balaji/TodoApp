@@ -6,3 +6,9 @@ The database connection used in MariaDB. Find the connection url in resources/ a
 The following link for setting up mariadb instance
 
 https://mariadb.com/kb/en/library/create-database/
+
+![Alt Text](TodoApp/src/main/webapp/images/todoApp.PNG)
+App image
+
+![Alt Text](TodoApp/src/main/webapp/images/mariadb.PNG)
+db 
