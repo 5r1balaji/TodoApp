@@ -37,14 +37,14 @@
           </div>
         </form>
         
-        <div>
+        <div ng-init="getTodos()">
           <div flex layout layout-align="end end" class="listHeader">
             {{remaining()}} of {{todos.length}} remaining</span>
             [<a href="" ng-click="archive()">Remove</a>]
           </div>
           <ul>
             <li ng-repeat="todo in todos">
-              <md-checkbox ng-model="todo.done" aria-label="Todo Checkbox" ng-init="todo.done=false" >
+              <md-checkbox ng-model="todo.done" aria-label="Todo Checkbox"  >
                 {{todo.text}}
               </md-checkbox>
             </li>
@@ -59,8 +59,8 @@
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-aria/angular-aria.js"></script>
     <script type="text/javascript" src="bower_components/angular-material/angular-material.js"></script>
-
-    <script src="js/todos/TodoController.js"></script>
-
+    <script src="js/todos/factory/TodoFactory.js"></script>
+    <script src="js/todos/controller/TodoController.js"></script>
+    <script src="js/todos/app.js"></script>
   </body>
 </html>
